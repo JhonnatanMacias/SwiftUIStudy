@@ -12,4 +12,6 @@ public enum ClassType: String, CaseIterable {
     case form_And_NavBar
     case state
     case viewLoop
+    case stacks
+    case gradient
 }

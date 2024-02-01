@@ -21,6 +21,8 @@
 		CA4829732B60B0C90058DB8C /* FormExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4829722B60B0C90058DB8C /* FormExample.swift */; };
 		CA4829782B6353EF0058DB8C /* StateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4829772B6353EF0058DB8C /* StateExample.swift */; };
 		CA48297B2B635D710058DB8C /* ViewLoopExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA48297A2B635D710058DB8C /* ViewLoopExample.swift */; };
+		CA5AEAD52B68918E006FCB5E /* StacksExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5AEAD42B68918E006FCB5E /* StacksExample.swift */; };
+		CA5AEAD82B6B2042006FCB5E /* GradientsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5AEAD72B6B2042006FCB5E /* GradientsExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		CA4829722B60B0C90058DB8C /* FormExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormExample.swift; sourceTree = "<group>"; };
 		CA4829772B6353EF0058DB8C /* StateExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateExample.swift; sourceTree = "<group>"; };
 		CA48297A2B635D710058DB8C /* ViewLoopExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLoopExample.swift; sourceTree = "<group>"; };
+		CA5AEAD42B68918E006FCB5E /* StacksExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksExample.swift; sourceTree = "<group>"; };
+		CA5AEAD72B6B2042006FCB5E /* GradientsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 		CA48293C2B60AB510058DB8C /* SwiftUI100Days */ = {
 			isa = PBXGroup;
 			children = (
+				CA5AEAD62B6B202D006FCB5E /* Gradients */,
+				CA5AEAD32B68917D006FCB5E /* Stacks */,
 				CA4829792B635D4C0058DB8C /* Views in Loop */,
 				CA4829742B6353970058DB8C /* State */,
 				CA4829712B60B0BB0058DB8C /* Form And Nav Bar */,
@@ -178,6 +184,22 @@
 				CA48297A2B635D710058DB8C /* ViewLoopExample.swift */,
 			);
 			path = "Views in Loop";
+			sourceTree = "<group>";
+		};
+		CA5AEAD32B68917D006FCB5E /* Stacks */ = {
+			isa = PBXGroup;
+			children = (
+				CA5AEAD42B68918E006FCB5E /* StacksExample.swift */,
+			);
+			path = Stacks;
+			sourceTree = "<group>";
+		};
+		CA5AEAD62B6B202D006FCB5E /* Gradients */ = {
+			isa = PBXGroup;
+			children = (
+				CA5AEAD72B6B2042006FCB5E /* GradientsExample.swift */,
+			);
+			path = Gradients;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +334,7 @@
 			files = (
 				CA48297B2B635D710058DB8C /* ViewLoopExample.swift in Sources */,
 				CA48294A2B60AB520058DB8C /* SwiftUI100Days.xcdatamodeld in Sources */,
+				CA5AEAD82B6B2042006FCB5E /* GradientsExample.swift in Sources */,
 				CA4829472B60AB520058DB8C /* Persistence.swift in Sources */,
 				CA4829402B60AB510058DB8C /* ContentView.swift in Sources */,
 				CA48293E2B60AB510058DB8C /* SwiftUI100DaysApp.swift in Sources */,
@@ -319,6 +342,7 @@
 				CA48296D2B60AEB10058DB8C /* ClassesType.swift in Sources */,
 				CA4829732B60B0C90058DB8C /* FormExample.swift in Sources */,
 				CA4829782B6353EF0058DB8C /* StateExample.swift in Sources */,
+				CA5AEAD52B68918E006FCB5E /* StacksExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
