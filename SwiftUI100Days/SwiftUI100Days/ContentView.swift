@@ -17,7 +17,8 @@ struct ContentView: View {
     //        animation: .default)
     //    private var items: FetchedResults<Item>
     
-    let options: [ClassType] = [.image, .form_And_NavBar, .state, .viewLoop, .stacks, .gradient]
+    let options: [ClassType] = [.image, .form_And_NavBar, .state, .viewLoop, .stacks, .gradient, .guessTheFlag, .customModifier,
+                                .customContainer]
 
     var body: some View {
             NavigationView {
@@ -58,6 +59,12 @@ struct OptionDetailView: View {
                 StacksExample()
             case .gradient:
                 GradientsExample()
+            case .guessTheFlag:
+                GuessTheFlagExample()
+            case .customModifier:
+                CustomModifierExample()
+            case .customContainer:
+                CustomContainerExample()
             }
 //            Text("Selected Option: \(optionStr)")
 //                .font(.title)

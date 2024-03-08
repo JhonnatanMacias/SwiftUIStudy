@@ -13,6 +13,26 @@ struct StateExample: View {
     
     @State var name = ""
     
+    @ViewBuilder var spells: some View {
+        Text("Lumos")
+        Text("Obliviate")
+    }
+   
+    var spellsG: some View {
+        Group {
+            Text("Lumos")
+            Text("Obliviate")
+        }
+    }
+   
+    var spellsV: some View {
+        VStack {
+            Text("Lumos")
+            Text("Obliviate")
+        }
+    }
+    
+    
     var body: some View {
         NavigationStack {
             Form {
@@ -28,10 +48,6 @@ struct StateExample: View {
                 
             }
             
-            
-           
-            
-        
             .navigationTitle("State and Binding State ")
             .navigationBarTitleDisplayMode(.inline)
         }

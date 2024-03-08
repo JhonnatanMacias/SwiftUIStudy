@@ -44,7 +44,7 @@ struct ImageExample: View {
             .padding()
             
             Button {
-                print("action")
+                print(type(of: self.body))
             } label: {
                 Label("Pencil", systemImage: "pencil.circle")
 //                HStack {
@@ -63,6 +63,14 @@ struct ImageExample: View {
             Image("singapore")
                 .resizable()
                 .frame(maxWidth: .infinity, maxHeight: 80)
+       
+       Text("Hola")
+           .padding()
+           .background(.red)
+           .padding()
+           .background(.blue)
+           .padding()
+           .background(.yellow)
         }
    .alert("Message", isPresented: $showingAlert) {
        Button("OK", role: .destructive) {}

@@ -23,6 +23,9 @@
 		CA48297B2B635D710058DB8C /* ViewLoopExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA48297A2B635D710058DB8C /* ViewLoopExample.swift */; };
 		CA5AEAD52B68918E006FCB5E /* StacksExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5AEAD42B68918E006FCB5E /* StacksExample.swift */; };
 		CA5AEAD82B6B2042006FCB5E /* GradientsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5AEAD72B6B2042006FCB5E /* GradientsExample.swift */; };
+		CA5AEADB2B730086006FCB5E /* GuessTheFlagExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5AEADA2B730086006FCB5E /* GuessTheFlagExample.swift */; };
+		CA5AEADE2B9AAA7E006FCB5E /* CustomModifierExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5AEADD2B9AAA7E006FCB5E /* CustomModifierExample.swift */; };
+		CA5AEAE12B9AAC4E006FCB5E /* CustomContainerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5AEAE02B9AAC4E006FCB5E /* CustomContainerExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,9 @@
 		CA48297A2B635D710058DB8C /* ViewLoopExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLoopExample.swift; sourceTree = "<group>"; };
 		CA5AEAD42B68918E006FCB5E /* StacksExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksExample.swift; sourceTree = "<group>"; };
 		CA5AEAD72B6B2042006FCB5E /* GradientsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsExample.swift; sourceTree = "<group>"; };
+		CA5AEADA2B730086006FCB5E /* GuessTheFlagExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagExample.swift; sourceTree = "<group>"; };
+		CA5AEADD2B9AAA7E006FCB5E /* CustomModifierExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifierExample.swift; sourceTree = "<group>"; };
+		CA5AEAE02B9AAC4E006FCB5E /* CustomContainerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContainerExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,9 @@
 		CA48293C2B60AB510058DB8C /* SwiftUI100Days */ = {
 			isa = PBXGroup;
 			children = (
+				CA5AEADF2B9AAC3C006FCB5E /* Containers */,
+				CA5AEADC2B9AAA6A006FCB5E /* Modifiers */,
+				CA5AEAD92B730053006FCB5E /* GuessTheFlag */,
 				CA5AEAD62B6B202D006FCB5E /* Gradients */,
 				CA5AEAD32B68917D006FCB5E /* Stacks */,
 				CA4829792B635D4C0058DB8C /* Views in Loop */,
@@ -200,6 +209,30 @@
 				CA5AEAD72B6B2042006FCB5E /* GradientsExample.swift */,
 			);
 			path = Gradients;
+			sourceTree = "<group>";
+		};
+		CA5AEAD92B730053006FCB5E /* GuessTheFlag */ = {
+			isa = PBXGroup;
+			children = (
+				CA5AEADA2B730086006FCB5E /* GuessTheFlagExample.swift */,
+			);
+			path = GuessTheFlag;
+			sourceTree = "<group>";
+		};
+		CA5AEADC2B9AAA6A006FCB5E /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				CA5AEADD2B9AAA7E006FCB5E /* CustomModifierExample.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		CA5AEADF2B9AAC3C006FCB5E /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				CA5AEAE02B9AAC4E006FCB5E /* CustomContainerExample.swift */,
+			);
+			path = Containers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA48297B2B635D710058DB8C /* ViewLoopExample.swift in Sources */,
+				CA5AEADE2B9AAA7E006FCB5E /* CustomModifierExample.swift in Sources */,
 				CA48294A2B60AB520058DB8C /* SwiftUI100Days.xcdatamodeld in Sources */,
 				CA5AEAD82B6B2042006FCB5E /* GradientsExample.swift in Sources */,
 				CA4829472B60AB520058DB8C /* Persistence.swift in Sources */,
@@ -340,8 +374,10 @@
 				CA48293E2B60AB510058DB8C /* SwiftUI100DaysApp.swift in Sources */,
 				CA4829702B60AFF20058DB8C /* ImageExample.swift in Sources */,
 				CA48296D2B60AEB10058DB8C /* ClassesType.swift in Sources */,
+				CA5AEAE12B9AAC4E006FCB5E /* CustomContainerExample.swift in Sources */,
 				CA4829732B60B0C90058DB8C /* FormExample.swift in Sources */,
 				CA4829782B6353EF0058DB8C /* StateExample.swift in Sources */,
+				CA5AEADB2B730086006FCB5E /* GuessTheFlagExample.swift in Sources */,
 				CA5AEAD52B68918E006FCB5E /* StacksExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
