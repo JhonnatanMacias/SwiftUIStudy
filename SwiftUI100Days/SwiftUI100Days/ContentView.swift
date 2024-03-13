@@ -18,7 +18,7 @@ struct ContentView: View {
     //    private var items: FetchedResults<Item>
     
     let options: [ClassType] = [.image, .form_And_NavBar, .state, .viewLoop, .stacks, .gradient, .guessTheFlag, .customModifier,
-                                .customContainer]
+                                .customContainer, .picker]
 
     var body: some View {
             NavigationView {
@@ -65,6 +65,8 @@ struct OptionDetailView: View {
                 CustomModifierExample()
             case .customContainer:
                 CustomContainerExample()
+            case .picker:
+                PickerExample()
             }
 //            Text("Selected Option: \(optionStr)")
 //                .font(.title)

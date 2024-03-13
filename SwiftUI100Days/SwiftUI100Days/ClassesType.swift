@@ -17,4 +17,5 @@ public enum ClassType: String, CaseIterable {
     case gradient
     case customModifier
     case customContainer
+    case picker
 }
