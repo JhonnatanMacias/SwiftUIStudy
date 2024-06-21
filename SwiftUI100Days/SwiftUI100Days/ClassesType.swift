@@ -18,4 +18,12 @@ public enum ClassType: String, CaseIterable {
     case customModifier
     case customContainer
     case picker
+    case coreML
+    case animation
+    case stateWithClass
+    case sheet
+    case imagesResize
+    case navigation
+    case hierachical
+    case codable
 }

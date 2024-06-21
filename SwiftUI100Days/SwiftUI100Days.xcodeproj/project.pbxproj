@@ -27,6 +27,30 @@
 		CA5AEADE2B9AAA7E006FCB5E /* CustomModifierExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5AEADD2B9AAA7E006FCB5E /* CustomModifierExample.swift */; };
 		CA5AEAE12B9AAC4E006FCB5E /* CustomContainerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5AEAE02B9AAC4E006FCB5E /* CustomContainerExample.swift */; };
 		CA5AEAE42B9FF5BA006FCB5E /* PickerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5AEAE32B9FF5BA006FCB5E /* PickerExample.swift */; };
+		CA5AEAE72BA24EDD006FCB5E /* CoreMLExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5AEAE62BA24EDD006FCB5E /* CoreMLExample.swift */; };
+		CA5AEAEB2BA2634B006FCB5E /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CA5AEAEA2BA2634B006FCB5E /* SleepCalculator.mlmodel */; };
+		CA5AEAEE2BAD2007006FCB5E /* ListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5AEAED2BAD2007006FCB5E /* ListExample.swift */; };
+		CA5AEAF02BB22322006FCB5E /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = CA5AEAEF2BB22322006FCB5E /* start.txt */; };
+		CA5AEAF32BEC6FE5006FCB5E /* AnimationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5AEAF22BEC6FE5006FCB5E /* AnimationExample.swift */; };
+		CA5AEAF52BFC4022006FCB5E /* AnimationControlling.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5AEAF42BFC4022006FCB5E /* AnimationControlling.swift */; };
+		CA5AEAF82BFD8C43006FCB5E /* StateWithClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5AEAF72BFD8C43006FCB5E /* StateWithClass.swift */; };
+		CA5AEAFA2BFED984006FCB5E /* SheetExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5AEAF92BFED984006FCB5E /* SheetExample.swift */; };
+		CA5AEAFC2C002CFF006FCB5E /* DeleteListMacroExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5AEAFB2C002CFF006FCB5E /* DeleteListMacroExample.swift */; };
+		CA5AEAFE2C00324A006FCB5E /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5AEAFD2C00324A006FCB5E /* AddView.swift */; };
+		CA5AEB012C06C8B1006FCB5E /* ImagesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5AEB002C06C8B1006FCB5E /* ImagesExample.swift */; };
+		CA5AEB042C096AE3006FCB5E /* NavigationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5AEB032C096AE3006FCB5E /* NavigationExample.swift */; };
+		CA5AEB072C096C7A006FCB5E /* HierachicalExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5AEB062C096C7A006FCB5E /* HierachicalExample.swift */; };
+		CA5AEB0A2C0FAE98006FCB5E /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = CA5AEB082C0FAE98006FCB5E /* astronauts.json */; };
+		CA5AEB0B2C0FAE98006FCB5E /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = CA5AEB092C0FAE98006FCB5E /* missions.json */; };
+		CA5AEB0E2C0FAF13006FCB5E /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5AEB0D2C0FAF13006FCB5E /* Astronaut.swift */; };
+		CA5AEB102C0FAF7C006FCB5E /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5AEB0F2C0FAF7C006FCB5E /* Bundle-Decodable.swift */; };
+		CA5AEB132C0FBAFB006FCB5E /* CodableAstronautExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5AEB122C0FBAFB006FCB5E /* CodableAstronautExample.swift */; };
+		CA5AEB162C114DEF006FCB5E /* Mision.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5AEB152C114DEF006FCB5E /* Mision.swift */; };
+		CA5AEB182C115E5C006FCB5E /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5AEB172C115E5C006FCB5E /* Color-Theme.swift */; };
+		CAC8C4492C25FE930029B6DD /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8C4482C25FE930029B6DD /* MissionView.swift */; };
+		CAC8C44B2C2615940029B6DD /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8C44A2C2615940029B6DD /* AstronautView.swift */; };
+		CAC8C44D2C2620770029B6DD /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8C44C2C2620770029B6DD /* GridLayout.swift */; };
+		CAC8C44F2C262F280029B6DD /* ListLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8C44E2C262F280029B6DD /* ListLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +94,30 @@
 		CA5AEADD2B9AAA7E006FCB5E /* CustomModifierExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifierExample.swift; sourceTree = "<group>"; };
 		CA5AEAE02B9AAC4E006FCB5E /* CustomContainerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContainerExample.swift; sourceTree = "<group>"; };
 		CA5AEAE32B9FF5BA006FCB5E /* PickerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExample.swift; sourceTree = "<group>"; };
+		CA5AEAE62BA24EDD006FCB5E /* CoreMLExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLExample.swift; sourceTree = "<group>"; };
+		CA5AEAEA2BA2634B006FCB5E /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SleepCalculator.mlmodel; path = ../../../coreML/SleepCalculator.mlmodel; sourceTree = "<group>"; };
+		CA5AEAED2BAD2007006FCB5E /* ListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExample.swift; sourceTree = "<group>"; };
+		CA5AEAEF2BB22322006FCB5E /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+		CA5AEAF22BEC6FE5006FCB5E /* AnimationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExample.swift; sourceTree = "<group>"; };
+		CA5AEAF42BFC4022006FCB5E /* AnimationControlling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationControlling.swift; sourceTree = "<group>"; };
+		CA5AEAF72BFD8C43006FCB5E /* StateWithClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithClass.swift; sourceTree = "<group>"; };
+		CA5AEAF92BFED984006FCB5E /* SheetExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetExample.swift; sourceTree = "<group>"; };
+		CA5AEAFB2C002CFF006FCB5E /* DeleteListMacroExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteListMacroExample.swift; sourceTree = "<group>"; };
+		CA5AEAFD2C00324A006FCB5E /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		CA5AEB002C06C8B1006FCB5E /* ImagesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesExample.swift; sourceTree = "<group>"; };
+		CA5AEB032C096AE3006FCB5E /* NavigationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationExample.swift; sourceTree = "<group>"; };
+		CA5AEB062C096C7A006FCB5E /* HierachicalExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierachicalExample.swift; sourceTree = "<group>"; };
+		CA5AEB082C0FAE98006FCB5E /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		CA5AEB092C0FAE98006FCB5E /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
+		CA5AEB0D2C0FAF13006FCB5E /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		CA5AEB0F2C0FAF7C006FCB5E /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		CA5AEB122C0FBAFB006FCB5E /* CodableAstronautExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableAstronautExample.swift; sourceTree = "<group>"; };
+		CA5AEB152C114DEF006FCB5E /* Mision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mision.swift; sourceTree = "<group>"; };
+		CA5AEB172C115E5C006FCB5E /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
+		CAC8C4482C25FE930029B6DD /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		CAC8C44A2C2615940029B6DD /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		CAC8C44C2C2620770029B6DD /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		CAC8C44E2C262F280029B6DD /* ListLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +168,17 @@
 		CA48293C2B60AB510058DB8C /* SwiftUI100Days */ = {
 			isa = PBXGroup;
 			children = (
+				CA5AEB0C2C0FAF03006FCB5E /* Codable */,
+				CA5AEB082C0FAE98006FCB5E /* astronauts.json */,
+				CA5AEB092C0FAE98006FCB5E /* missions.json */,
+				CA5AEB052C096C64006FCB5E /* View Hierarchical */,
+				CA5AEB022C096AD8006FCB5E /* Navigation */,
+				CA5AEAFF2C06C8A2006FCB5E /* Images */,
+				CA5AEAF62BFD8C2E006FCB5E /* Showing and hiding view */,
+				CA5AEAF12BEC6FD3006FCB5E /* Animations */,
+				CA5AEAEF2BB22322006FCB5E /* start.txt */,
+				CA5AEAEC2BAD1EEF006FCB5E /* List */,
+				CA5AEAE52BA246DC006FCB5E /* Core ML */,
 				CA5AEAE22B9FF5AA006FCB5E /* Pickers */,
 				CA5AEADF2B9AAC3C006FCB5E /* Containers */,
 				CA5AEADC2B9AAA6A006FCB5E /* Modifiers */,
@@ -186,6 +245,7 @@
 			isa = PBXGroup;
 			children = (
 				CA4829772B6353EF0058DB8C /* StateExample.swift */,
+				CA5AEAF72BFD8C43006FCB5E /* StateWithClass.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -244,6 +304,90 @@
 				CA5AEAE32B9FF5BA006FCB5E /* PickerExample.swift */,
 			);
 			path = Pickers;
+			sourceTree = "<group>";
+		};
+		CA5AEAE52BA246DC006FCB5E /* Core ML */ = {
+			isa = PBXGroup;
+			children = (
+				CA5AEAEA2BA2634B006FCB5E /* SleepCalculator.mlmodel */,
+				CA5AEAE62BA24EDD006FCB5E /* CoreMLExample.swift */,
+			);
+			path = "Core ML";
+			sourceTree = "<group>";
+		};
+		CA5AEAEC2BAD1EEF006FCB5E /* List */ = {
+			isa = PBXGroup;
+			children = (
+				CA5AEAED2BAD2007006FCB5E /* ListExample.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		CA5AEAF12BEC6FD3006FCB5E /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				CA5AEAF22BEC6FE5006FCB5E /* AnimationExample.swift */,
+				CA5AEAF42BFC4022006FCB5E /* AnimationControlling.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		CA5AEAF62BFD8C2E006FCB5E /* Showing and hiding view */ = {
+			isa = PBXGroup;
+			children = (
+				CA5AEAFB2C002CFF006FCB5E /* DeleteListMacroExample.swift */,
+				CA5AEAFD2C00324A006FCB5E /* AddView.swift */,
+				CA5AEAF92BFED984006FCB5E /* SheetExample.swift */,
+			);
+			path = "Showing and hiding view";
+			sourceTree = "<group>";
+		};
+		CA5AEAFF2C06C8A2006FCB5E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CA5AEB002C06C8B1006FCB5E /* ImagesExample.swift */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CA5AEB022C096AD8006FCB5E /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				CA5AEB032C096AE3006FCB5E /* NavigationExample.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		CA5AEB052C096C64006FCB5E /* View Hierarchical */ = {
+			isa = PBXGroup;
+			children = (
+				CA5AEB062C096C7A006FCB5E /* HierachicalExample.swift */,
+			);
+			path = "View Hierarchical";
+			sourceTree = "<group>";
+		};
+		CA5AEB0C2C0FAF03006FCB5E /* Codable */ = {
+			isa = PBXGroup;
+			children = (
+				CA5AEB142C114DE0006FCB5E /* Mission */,
+				CA5AEB0D2C0FAF13006FCB5E /* Astronaut.swift */,
+				CA5AEB0F2C0FAF7C006FCB5E /* Bundle-Decodable.swift */,
+			);
+			path = Codable;
+			sourceTree = "<group>";
+		};
+		CA5AEB142C114DE0006FCB5E /* Mission */ = {
+			isa = PBXGroup;
+			children = (
+				CA5AEB152C114DEF006FCB5E /* Mision.swift */,
+				CA5AEB172C115E5C006FCB5E /* Color-Theme.swift */,
+				CAC8C4482C25FE930029B6DD /* MissionView.swift */,
+				CAC8C44A2C2615940029B6DD /* AstronautView.swift */,
+				CA5AEB122C0FBAFB006FCB5E /* CodableAstronautExample.swift */,
+				CAC8C44C2C2620770029B6DD /* GridLayout.swift */,
+				CAC8C44E2C262F280029B6DD /* ListLayout.swift */,
+			);
+			path = Mission;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,7 +495,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA4829452B60AB520058DB8C /* Preview Assets.xcassets in Resources */,
+				CA5AEB0B2C0FAE98006FCB5E /* missions.json in Resources */,
+				CA5AEAF02BB22322006FCB5E /* start.txt in Resources */,
 				CA4829422B60AB520058DB8C /* Assets.xcassets in Resources */,
+				CA5AEB0A2C0FAE98006FCB5E /* astronauts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,19 +523,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA5AEB102C0FAF7C006FCB5E /* Bundle-Decodable.swift in Sources */,
 				CA5AEAE42B9FF5BA006FCB5E /* PickerExample.swift in Sources */,
 				CA48297B2B635D710058DB8C /* ViewLoopExample.swift in Sources */,
 				CA5AEADE2B9AAA7E006FCB5E /* CustomModifierExample.swift in Sources */,
+				CA5AEB0E2C0FAF13006FCB5E /* Astronaut.swift in Sources */,
 				CA48294A2B60AB520058DB8C /* SwiftUI100Days.xcdatamodeld in Sources */,
+				CA5AEAEE2BAD2007006FCB5E /* ListExample.swift in Sources */,
 				CA5AEAD82B6B2042006FCB5E /* GradientsExample.swift in Sources */,
 				CA4829472B60AB520058DB8C /* Persistence.swift in Sources */,
+				CAC8C44F2C262F280029B6DD /* ListLayout.swift in Sources */,
+				CA5AEB132C0FBAFB006FCB5E /* CodableAstronautExample.swift in Sources */,
 				CA4829402B60AB510058DB8C /* ContentView.swift in Sources */,
+				CA5AEB182C115E5C006FCB5E /* Color-Theme.swift in Sources */,
+				CAC8C44D2C2620770029B6DD /* GridLayout.swift in Sources */,
+				CA5AEAEB2BA2634B006FCB5E /* SleepCalculator.mlmodel in Sources */,
+				CA5AEB012C06C8B1006FCB5E /* ImagesExample.swift in Sources */,
+				CA5AEB042C096AE3006FCB5E /* NavigationExample.swift in Sources */,
 				CA48293E2B60AB510058DB8C /* SwiftUI100DaysApp.swift in Sources */,
+				CA5AEB162C114DEF006FCB5E /* Mision.swift in Sources */,
 				CA4829702B60AFF20058DB8C /* ImageExample.swift in Sources */,
 				CA48296D2B60AEB10058DB8C /* ClassesType.swift in Sources */,
 				CA5AEAE12B9AAC4E006FCB5E /* CustomContainerExample.swift in Sources */,
+				CA5AEB072C096C7A006FCB5E /* HierachicalExample.swift in Sources */,
 				CA4829732B60B0C90058DB8C /* FormExample.swift in Sources */,
+				CAC8C44B2C2615940029B6DD /* AstronautView.swift in Sources */,
+				CA5AEAE72BA24EDD006FCB5E /* CoreMLExample.swift in Sources */,
+				CA5AEAF32BEC6FE5006FCB5E /* AnimationExample.swift in Sources */,
+				CA5AEAF52BFC4022006FCB5E /* AnimationControlling.swift in Sources */,
+				CA5AEAFC2C002CFF006FCB5E /* DeleteListMacroExample.swift in Sources */,
 				CA4829782B6353EF0058DB8C /* StateExample.swift in Sources */,
+				CA5AEAFA2BFED984006FCB5E /* SheetExample.swift in Sources */,
+				CA5AEAFE2C00324A006FCB5E /* AddView.swift in Sources */,
+				CAC8C4492C25FE930029B6DD /* MissionView.swift in Sources */,
+				CA5AEAF82BFD8C43006FCB5E /* StateWithClass.swift in Sources */,
 				CA5AEADB2B730086006FCB5E /* GuessTheFlagExample.swift in Sources */,
 				CA5AEAD52B68918E006FCB5E /* StacksExample.swift in Sources */,
 			);
