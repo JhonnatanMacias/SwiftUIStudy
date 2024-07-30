@@ -10,6 +10,7 @@ import Foundation
 public enum ClassType: String, CaseIterable {
     case guessTheFlag
     case image
+    case navigationStack
     case form_And_NavBar
     case state
     case viewLoop
@@ -26,4 +27,6 @@ public enum ClassType: String, CaseIterable {
     case navigation
     case hierachical
     case codable
+    case haptic
+    case binding
 }

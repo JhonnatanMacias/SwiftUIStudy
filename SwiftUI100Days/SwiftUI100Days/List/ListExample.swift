@@ -16,7 +16,7 @@ struct ListExample: View {
     @State private var showError: Bool = false
     @State private var errorTitle = ""
     @State private var errorMessage = ""
-    
+    // aqui
     var body: some View {
         NavigationStack {
             List {
@@ -24,13 +24,16 @@ struct ListExample: View {
                     TextField("Enter your word", text: $newWord)
                         .textInputAutocapitalization(.never)
                 }
+                .listRowBackground(Color.white)
                 
                 Section("section 2") {
                     ForEach(usedWords, id: \.self) { word in
                         Text(word)
                     }
                 }
+                .listRowBackground(Color.white)
             }
+            .foregroundColor(.lightBackground)
             .navigationTitle(rootWord)
             .onSubmit(addNewWord)
             .onAppear(perform: {
@@ -42,7 +45,6 @@ struct ListExample: View {
                 Text(errorMessage)
             }
         }
-        
     }
     
     func isPossible(word: String) -> Bool {

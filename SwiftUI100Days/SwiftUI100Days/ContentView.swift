@@ -17,8 +17,8 @@ struct ContentView: View {
     //        animation: .default)
     //    private var items: FetchedResults<Item>
     
-    let options: [ClassType] = [.image, .animation, .hierachical, .navigation, .imagesResize, .codable, .sheet, .stateWithClass, .form_And_NavBar, .state, .viewLoop, .stacks, .gradient, .guessTheFlag, .customModifier,
-                                .customContainer, .picker, .coreML]
+    let options: [ClassType] = [.image, .binding, .animation, .hierachical, .navigation, .imagesResize, .codable, .sheet, .stateWithClass, .form_And_NavBar, .state, .viewLoop, .stacks, .gradient, .guessTheFlag, .customModifier,
+                                .customContainer, .picker, .coreML, .navigationStack, .haptic]
 
     var body: some View {
             NavigationView {
@@ -49,8 +49,14 @@ struct OptionDetailView: View {
             switch option {
             case .coreML:
                 CoreMLExample()
+            case .binding:
+                BindingExample()
             case .animation:
                 AnimationExample()
+            case .haptic:
+                UserCodable()
+            case .navigationStack:
+                NavigationStackBackExample()
             case .hierachical:
                 HierachicalExample()
             case .sheet:

@@ -51,6 +51,15 @@
 		CAC8C44B2C2615940029B6DD /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8C44A2C2615940029B6DD /* AstronautView.swift */; };
 		CAC8C44D2C2620770029B6DD /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8C44C2C2620770029B6DD /* GridLayout.swift */; };
 		CAC8C44F2C262F280029B6DD /* ListLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8C44E2C262F280029B6DD /* ListLayout.swift */; };
+		CAC8C4522C2A0AEC0029B6DD /* NavigationStackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8C4512C2A0AEC0029B6DD /* NavigationStackExample.swift */; };
+		CAC8C4542C2A53510029B6DD /* NavigationStackBackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8C4532C2A53510029B6DD /* NavigationStackBackExample.swift */; };
+		CAC8C4562C2B70C30029B6DD /* NavigationStackAppearanceExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8C4552C2B70C30029B6DD /* NavigationStackAppearanceExample.swift */; };
+		CAC8C4592C2B787C0029B6DD /* URLSessionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8C4582C2B787C0029B6DD /* URLSessionExample.swift */; };
+		CAC8C4602C48B3790029B6DD /* UserCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8C45F2C48B3790029B6DD /* UserCodable.swift */; };
+		CAC8C4622C48BF6F0029B6DD /* OrderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8C4612C48BF6F0029B6DD /* OrderExample.swift */; };
+		CAC8C4642C48C1A40029B6DD /* AddressViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8C4632C48C1A40029B6DD /* AddressViewExample.swift */; };
+		CAC8C4662C49F9A00029B6DD /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8C4652C49F9A00029B6DD /* CheckoutView.swift */; };
+		CAC8C4692C588CDF0029B6DD /* BindingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8C4682C588CDF0029B6DD /* BindingExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +127,15 @@
 		CAC8C44A2C2615940029B6DD /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 		CAC8C44C2C2620770029B6DD /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
 		CAC8C44E2C262F280029B6DD /* ListLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLayout.swift; sourceTree = "<group>"; };
+		CAC8C4512C2A0AEC0029B6DD /* NavigationStackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackExample.swift; sourceTree = "<group>"; };
+		CAC8C4532C2A53510029B6DD /* NavigationStackBackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackBackExample.swift; sourceTree = "<group>"; };
+		CAC8C4552C2B70C30029B6DD /* NavigationStackAppearanceExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackAppearanceExample.swift; sourceTree = "<group>"; };
+		CAC8C4582C2B787C0029B6DD /* URLSessionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionExample.swift; sourceTree = "<group>"; };
+		CAC8C45F2C48B3790029B6DD /* UserCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCodable.swift; sourceTree = "<group>"; };
+		CAC8C4612C48BF6F0029B6DD /* OrderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderExample.swift; sourceTree = "<group>"; };
+		CAC8C4632C48C1A40029B6DD /* AddressViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressViewExample.swift; sourceTree = "<group>"; };
+		CAC8C4652C49F9A00029B6DD /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		CAC8C4682C588CDF0029B6DD /* BindingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +186,9 @@
 		CA48293C2B60AB510058DB8C /* SwiftUI100Days */ = {
 			isa = PBXGroup;
 			children = (
+				CAC8C4672C588CCC0029B6DD /* Binding */,
+				CAC8C4572C2B786C0029B6DD /* URLSession */,
+				CAC8C4502C2A0ADA0029B6DD /* NavigationStack */,
 				CA5AEB0C2C0FAF03006FCB5E /* Codable */,
 				CA5AEB082C0FAE98006FCB5E /* astronauts.json */,
 				CA5AEB092C0FAE98006FCB5E /* missions.json */,
@@ -369,6 +390,7 @@
 		CA5AEB0C2C0FAF03006FCB5E /* Codable */ = {
 			isa = PBXGroup;
 			children = (
+				CAC8C45E2C48B3670029B6DD /* USer */,
 				CA5AEB142C114DE0006FCB5E /* Mission */,
 				CA5AEB0D2C0FAF13006FCB5E /* Astronaut.swift */,
 				CA5AEB0F2C0FAF7C006FCB5E /* Bundle-Decodable.swift */,
@@ -388,6 +410,43 @@
 				CAC8C44E2C262F280029B6DD /* ListLayout.swift */,
 			);
 			path = Mission;
+			sourceTree = "<group>";
+		};
+		CAC8C4502C2A0ADA0029B6DD /* NavigationStack */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8C4512C2A0AEC0029B6DD /* NavigationStackExample.swift */,
+				CAC8C4532C2A53510029B6DD /* NavigationStackBackExample.swift */,
+				CAC8C4552C2B70C30029B6DD /* NavigationStackAppearanceExample.swift */,
+			);
+			path = NavigationStack;
+			sourceTree = "<group>";
+		};
+		CAC8C4572C2B786C0029B6DD /* URLSession */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8C4582C2B787C0029B6DD /* URLSessionExample.swift */,
+			);
+			path = URLSession;
+			sourceTree = "<group>";
+		};
+		CAC8C45E2C48B3670029B6DD /* USer */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8C45F2C48B3790029B6DD /* UserCodable.swift */,
+				CAC8C4612C48BF6F0029B6DD /* OrderExample.swift */,
+				CAC8C4632C48C1A40029B6DD /* AddressViewExample.swift */,
+				CAC8C4652C49F9A00029B6DD /* CheckoutView.swift */,
+			);
+			path = USer;
+			sourceTree = "<group>";
+		};
+		CAC8C4672C588CCC0029B6DD /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8C4682C588CDF0029B6DD /* BindingExample.swift */,
+			);
+			path = Binding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -526,9 +585,11 @@
 				CA5AEB102C0FAF7C006FCB5E /* Bundle-Decodable.swift in Sources */,
 				CA5AEAE42B9FF5BA006FCB5E /* PickerExample.swift in Sources */,
 				CA48297B2B635D710058DB8C /* ViewLoopExample.swift in Sources */,
+				CAC8C4642C48C1A40029B6DD /* AddressViewExample.swift in Sources */,
 				CA5AEADE2B9AAA7E006FCB5E /* CustomModifierExample.swift in Sources */,
 				CA5AEB0E2C0FAF13006FCB5E /* Astronaut.swift in Sources */,
 				CA48294A2B60AB520058DB8C /* SwiftUI100Days.xcdatamodeld in Sources */,
+				CAC8C4692C588CDF0029B6DD /* BindingExample.swift in Sources */,
 				CA5AEAEE2BAD2007006FCB5E /* ListExample.swift in Sources */,
 				CA5AEAD82B6B2042006FCB5E /* GradientsExample.swift in Sources */,
 				CA4829472B60AB520058DB8C /* Persistence.swift in Sources */,
@@ -541,19 +602,26 @@
 				CA5AEB012C06C8B1006FCB5E /* ImagesExample.swift in Sources */,
 				CA5AEB042C096AE3006FCB5E /* NavigationExample.swift in Sources */,
 				CA48293E2B60AB510058DB8C /* SwiftUI100DaysApp.swift in Sources */,
+				CAC8C4602C48B3790029B6DD /* UserCodable.swift in Sources */,
 				CA5AEB162C114DEF006FCB5E /* Mision.swift in Sources */,
 				CA4829702B60AFF20058DB8C /* ImageExample.swift in Sources */,
 				CA48296D2B60AEB10058DB8C /* ClassesType.swift in Sources */,
+				CAC8C4562C2B70C30029B6DD /* NavigationStackAppearanceExample.swift in Sources */,
 				CA5AEAE12B9AAC4E006FCB5E /* CustomContainerExample.swift in Sources */,
 				CA5AEB072C096C7A006FCB5E /* HierachicalExample.swift in Sources */,
+				CAC8C4622C48BF6F0029B6DD /* OrderExample.swift in Sources */,
 				CA4829732B60B0C90058DB8C /* FormExample.swift in Sources */,
+				CAC8C4522C2A0AEC0029B6DD /* NavigationStackExample.swift in Sources */,
 				CAC8C44B2C2615940029B6DD /* AstronautView.swift in Sources */,
 				CA5AEAE72BA24EDD006FCB5E /* CoreMLExample.swift in Sources */,
 				CA5AEAF32BEC6FE5006FCB5E /* AnimationExample.swift in Sources */,
+				CAC8C4592C2B787C0029B6DD /* URLSessionExample.swift in Sources */,
 				CA5AEAF52BFC4022006FCB5E /* AnimationControlling.swift in Sources */,
+				CAC8C4662C49F9A00029B6DD /* CheckoutView.swift in Sources */,
 				CA5AEAFC2C002CFF006FCB5E /* DeleteListMacroExample.swift in Sources */,
 				CA4829782B6353EF0058DB8C /* StateExample.swift in Sources */,
 				CA5AEAFA2BFED984006FCB5E /* SheetExample.swift in Sources */,
+				CAC8C4542C2A53510029B6DD /* NavigationStackBackExample.swift in Sources */,
 				CA5AEAFE2C00324A006FCB5E /* AddView.swift in Sources */,
 				CAC8C4492C25FE930029B6DD /* MissionView.swift in Sources */,
 				CA5AEAF82BFD8C43006FCB5E /* StateWithClass.swift in Sources */,

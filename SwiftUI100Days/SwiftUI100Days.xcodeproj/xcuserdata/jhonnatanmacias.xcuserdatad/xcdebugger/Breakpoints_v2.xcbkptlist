@@ -3,4 +3,54 @@
    uuid = "99A04D9A-C4E1-4251-B070-3EC764E20F32"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DF316003-3C12-4A1F-9A4A-B5195B7F1D75"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUI100Days/NavigationStack/NavigationStackBackExample.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "DF316003-3C12-4A1F-9A4A-B5195B7F1D75 - 508c11d67d30fea7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.navigationDestination&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_1_0: Swift.Hashable, &#x3c4;_1_1: SwiftUI.View&gt;(for: &#x3c4;_1_0.Type, destination: (&#x3c4;_1_0) -&gt; &#x3c4;_1_1) -&gt; some&gt;&gt;.0)&gt; in SwiftUI100Days.NavigationStackBackExample.body.getter : some"
+                  moduleName = "SwiftUI100Days"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jhonnatanmacias/Documents/iOS/SwiftUIStudy/SwiftUI100Days/SwiftUI100Days/NavigationStack/NavigationStackBackExample.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "440">
+               </Location>
+               <Location
+                  uuid = "DF316003-3C12-4A1F-9A4A-B5195B7F1D75 - 2556a1fae820172a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int) -&gt; SwiftUI100Days.DetailViews in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.navigationDestination&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_1_0: Swift.Hashable, &#x3c4;_1_1: SwiftUI.View&gt;(for: &#x3c4;_1_0.Type, destination: (&#x3c4;_1_0) -&gt; &#x3c4;_1_1) -&gt; some&gt;&gt;.0)&gt; in SwiftUI100Days.NavigationStackBackExample.body.getter : some"
+                  moduleName = "SwiftUI100Days"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jhonnatanmacias/Documents/iOS/SwiftUIStudy/SwiftUI100Days/SwiftUI100Days/NavigationStack/NavigationStackBackExample.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
