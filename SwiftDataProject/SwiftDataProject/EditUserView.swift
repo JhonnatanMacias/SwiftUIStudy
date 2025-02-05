@@ -14,7 +14,7 @@ struct EditUserView: View {
         Form {
             TextField("Name", text: $user.name)
             TextField("City", text: $user.city)
-            DatePicker("John", selection: $user.joinDate)
+            DatePicker("Join Date", selection: $user.joinDate)
         }
         .navigationTitle("Edit User")
         .navigationBarTitleDisplayMode(.inline)
