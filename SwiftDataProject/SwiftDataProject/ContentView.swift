@@ -10,26 +10,45 @@ import SwiftData
 
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
-    @Query(sort: \User.name) var users: [User]
-    @State private var path = [User]()
-    @State private var pathGeneric = NavigationPath()
+//    @Query(sort: \User.name) var users: [User]
+//    @Query(filter: #Predicate<User> { user in
+//        user.name.localizedStandardContains("R") &&
+//        user.city == "London"
+//    }, sort: \User.name) var users: [User]
+    
+    @Query(filter: #Predicate<User> { user in
+        if user.name.localizedStandardContains("R")  {
+            if user.city == "London" {
+                return true
+            } else {
+                return false
+            }
+        } else {
+            return false
+        }
+      }, sort: \User.name) var users: [User]
+   
+//    @State private var path = [User]()
+//    @State private var pathGeneric = NavigationPath()
 
     var body: some View {
-        NavigationStack(path: $path) {
+        NavigationStack {
             List(users) { user in
-                NavigationLink(value: user) {
                     Text(user.name)
-                }
             }
             .navigationTitle("Users")
-            .navigationDestination(for: User.self) { user in
-                EditUserView(user: user)
-            }
             .toolbar {
-                Button("Add User", systemImage: "plus") {
-                    let user = User(name: "", city: "", joinDate: Date.now)
-                    modelContext.insert(user)
-                    path = [user]
+                Button("Add Samples", systemImage: "plus") {
+                    try? modelContext.delete(model: User.self)
+                    let firts = User(name: "Ed Sheeran", city: "London", joinDate: .now.addingTimeInterval(86400 * -10))
+                    let second = User(name: "Rose Diaz", city: "Quilla", joinDate: .now.addingTimeInterval(86400 * -5))
+                    let third = User(name: "Roy kent", city: "London", joinDate: .now.addingTimeInterval(86400 * -5))
+                    let fourth = User(name: "Johnny English", city: "London", joinDate: .now.addingTimeInterval(86400 * 10))
+                    
+                    modelContext.insert(firts)
+                    modelContext.insert(second)
+                    modelContext.insert(third)
+                    modelContext.insert(fourth)
 //                    pathGeneric.append(user)
                 }
             }
@@ -56,6 +75,55 @@ struct ContentView: View {
     ContentView()
         .modelContainer(for: User.self, inMemory: true)
 }
+
+/*
+ VERSIIN 1
+ 
+ 
+ struct ContentView: View {
+     @Environment(\.modelContext) private var modelContext
+     @Query(sort: \User.name) var users: [User]
+     @State private var path = [User]()
+     @State private var pathGeneric = NavigationPath()
+
+     var body: some View {
+         NavigationStack(path: $path) {
+             List(users) { user in
+                 NavigationLink(value: user) {
+                     Text(user.name)
+                 }
+             }
+             .navigationTitle("Users")
+             .navigationDestination(for: User.self) { user in
+                 EditUserView(user: user)
+             }
+             .toolbar {
+                 Button("Add User", systemImage: "plus") {
+                     let user = User(name: "", city: "", joinDate: Date.now)
+                     modelContext.insert(user)
+                     path = [user]
+ //                    pathGeneric.append(user)
+                 }
+             }
+         }
+     }
+
+     private func addItem() {
+         withAnimation {
+ //            let newItem = Item(timestamp: Date())
+ //            modelContext.insert(newItem)
+         }
+     }
+
+     private func deleteItems(offsets: IndexSet) {
+         withAnimation {
+             for index in offsets {
+ //                modelContext.delete(items[index])
+             }
+         }
+     }
+ }
+ */
 
 //El path es una propiedad que mantiene el estado de la navegación dentro de un NavigationStack. En SwiftUI, el NavigationStack se usa para manejar la navegación en una vista de pila, lo que te permite navegar a otras vistas de manera jerárquica. Este componente es más moderno y flexible que el viejo NavigationView.
 /*
