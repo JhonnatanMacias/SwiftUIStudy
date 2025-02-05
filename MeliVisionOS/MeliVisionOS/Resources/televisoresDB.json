@@ -1,0 +1,464 @@
+[
+    {
+        "id": 1000,
+        "title": "Smart Tv Fhd 43 Dled Wi-fi Roku",
+        "owner": "Loja Multi",
+        "overview": "Avaliação 4.7 de 5. 165 opiniões..",
+        "runtime": 3,
+        "tags":
+        [
+            "credits profile", "brand", "eshop",
+        ],
+        "pills":
+        [
+            "OFERTA DO DIA",
+            "Frete grátis"
+        ],
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_683030-MLU78499337608_082024-V.jpg"
+    },
+    {
+        "id": 1001,
+        "title": "Smart TV LED 43\" Ultra HD 4K LG",
+        "owner": "Por 2Eletro",
+        "overview": "Avaliação 4.8 de 5. 6,684 opiniões.",
+        "runtime": 1,
+        "tags":
+        [
+            "interest free", "product ad", "cart eligible"
+        ],
+        "pills":
+        [
+            "Frete grátis",
+            "Enviado pelo"
+        ],
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_702125-MLU77161651080_072024-V.jpg"
+    },
+    {
+        "id": 1002,
+        "title": "Samsung Smart Tv 43 Uhd 4k 2024",
+        "owner": "Por Samsung",
+        "overview": "Avaliação 4.9 de 5. 951 opiniões.",
+        "runtime": 4,
+        "tags":
+        [
+             "mshops", "eshop", "large seller"
+        ],
+        "pills":
+        [
+            "OFERTA DO DIA",
+            "Cupom R$ 100 OFF",
+            "Michael Caine"
+        ],
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_604875-MLU78159955352_082024-O.jpg"
+    },
+    {
+        "id": 1003,
+        "title": "Smart Tv 32 polegadas Hd Roku Tv 32",
+        "owner": "Mercado Livre",
+        "overview": "Avaliação 4.7 de 5. 6,917 opiniões.",
+        "runtime": 2,
+        "tags":
+        [
+           "mshops", "eshop", "brand"
+        ],
+        "pills":
+        [
+            "Frete grátis",
+            "FULL"
+        ],
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_810842-MLU76732995708_062024-O.jpg"
+    },
+    {
+        "id": 1005,
+        "title": "Smart Tv Britânia 32 Hd Led Hdmi",
+        "owner": "Sidney Lumet",
+        "overview": "Avaliação 4.7 de 5. 197 opiniões.",
+        "runtime":5,
+        "tags":
+        [
+            "brand",  "messages as seller"
+        ],
+        "pills":
+        [
+            "Enviado pelo",
+            "Frete grátis"
+        ],
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_655799-MLU78276028071_082024-O.jpg"
+    },
+    {
+        "id": 1006,
+        "title": "Smart Tv Led 32 Android Tv",
+        "owner": "Por TCL",
+        "overview": "Avaliação 4.7 de 5. 6,265 opiniões.",
+        "runtime": 4,
+        "tags":
+        [
+            "brand"
+        ],
+        "pills":
+        [
+            "Frete grátis",
+            "Enviado pelo"
+        ],
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_999878-MLU72827092602_112023-O.jpg"
+    },
+    {
+        "id": 1007,
+        "title": "Smart TV LED 43\" Ultra HD 4K LG",
+        "owner": "Por Vikings",
+        "overview": "Avaliação 4.8 de 5. 6,684 opiniões.",
+        "runtime": 3,
+        "tags":
+        [
+           "credits profile", "mshops", "brand"
+        ],
+        "pills":
+        [
+           "Frete grátis",
+            "Enviado pelo"
+        ],
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_702125-MLU77161651080_072024-O.jpg"
+    },
+    {
+        "id": 1008,
+        "title": "Tv Smart Samsung Led 55 Led 4k",
+        "owner":  "Por 123 Comprou",
+        "overview": "Avaliação 4.7 de 5. 1,329 opiniões.",
+        "runtime": 2,
+        "tags":
+        [
+          "brand", "large seller", "eshop"
+        ],
+        "pills":
+        [
+           "Frete grátis",
+            "Enviado pelo",
+            "FULL"
+        ],
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_856674-MLU77388567143_072024-LA.jpg"
+    },
+    {
+        "id": 1009,
+        "title": "Smart Tv Britânia 42",
+        "owner":  "Por 123 Comprou",
+        "overview": "Avaliação 4.7 de 5. 172 opiniões.",
+        "runtime": 1,
+        "tags":
+        [
+           "eshop", "mshops", "credits profile"
+        ],
+        "pills":
+        [
+           "Frete grátis",
+            "Enviado pelo",
+            "FULL"
+        ],
+        "poster":  "https://http2.mlstatic.com/D_NQ_NP_634212-MLU77121532817_062024-O.jpg"
+    },
+    {
+        "id": 1010,
+        "title": "Smart Tv Philips 50 4k Google Tv ",
+        "owner": "Por Mercado Livre",
+        "overview": "Avaliação 4.8 de 5. 820 opiniões.",
+        "runtime": 3,
+        "tags":
+        [
+         "brand"
+        ],
+        "pills":
+        [
+           "Frete grátis",
+            "Enviado pelo",
+            "FULL"
+        ],
+        "poster":  "https://http2.mlstatic.com/D_NQ_NP_970183-MLU76808271744_062024-O.jpg"
+    },
+    {
+        "id": 1011,
+        "title": "TCL Classic 4K Smart Tv Dolby",
+        "owner": "Por Mercado Livre",
+        "overview": "Avaliação 4.8 de 5. 820 opiniões.",
+        "runtime": 4,
+        "tags":
+        [
+        "mshops", "eshop",  "brand"
+        ],
+        "pills":
+        [
+           "Frete grátis",
+            "Enviado pelo",
+            "FULL"
+        ],
+        "poster":  "https://http2.mlstatic.com/D_NQ_NP_998082-MLU76657166206_062024-O.jpg"
+    },
+    {
+        "id": 1012,
+        "title": "Smart TV Samsung BET-B HD 32",
+        "owner": "Por Mercado Livre",
+        "overview": "Avaliação 4.8 de 5. 820 opiniões.",
+        "runtime": 5,
+        "tags":
+        [
+         "mshops", "eshop", "large_seller"
+        ],
+        "pills":
+        [
+           "Frete grátis",
+            "Enviado pelo",
+            "FULL"
+        ],
+        "poster":  "https://http2.mlstatic.com/D_NQ_NP_895581-MLU77134007542_062024-V.jpg"
+    },
+    {
+        "id": 1013,
+        "title": "Smart Tv 43 LG Full Hd 5",
+        "owner": "Por Mercado Livre",
+        "overview": "Avaliação 4.8 de 5. 820 opiniões.",
+        "runtime": 3,
+        "tags":
+        [
+          "eshop"
+        ],
+        "pills":
+        [
+           "Frete grátis",
+            "Enviado pelo",
+            "FULL"
+        ],
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_655799-MLU78276028071_082024-O.jpg"
+    },
+    {
+        "id": 1014,
+        "title": " Smart Tv Fhd 43 Dled Wi-fi",
+        "owner": "Por Mercado Livre",
+        "overview": "Avaliação 4.8 de 5. 820 opiniões.",
+        "runtime": 2,
+        "tags":
+        [
+            "eshop", "brand"
+        ],
+        "pills":
+        [
+           "Frete grátis",
+            "Enviado pelo",
+            "FULL"
+        ],
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_683030-MLU78499337608_082024-O.jpg"
+    },
+    {
+        "id": 1014,
+        "title": "Smart Tv Led 32 Hd Samsung  32 Hdmi",
+        "owner": "Por Mercado Livre",
+        "overview": "Avaliação 4.8 de 5. 820 opiniões.",
+        "runtime": 5,
+        "tags":
+        [
+           "mshops", "eshop", "brand"
+        ],
+        "pills":
+        [
+           "Frete grátis",
+            "Enviado pelo",
+            "FULL"
+        ],
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_763352-MLU77595801805_072024-O.jpg"
+    },
+    {
+        "id": 1015,
+        "title":"TV portátil Bak BK-1750ISDBT LED HD 17\"",
+        "owner": "Por Mercado Livre",
+        "overview": "Avaliação 4.8 de 5. 820 opiniões.",
+        "runtime": 3,
+        "tags":
+        [
+          "mshops", "eshop",  "brand"
+        ],
+        "pills":
+        [
+           "Frete grátis",
+            "Enviado pelo",
+            "FULL"
+        ],
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_662057-MLU77370250741_072024-O.jpg"
+    },
+    {
+        "id": 1016,
+        "title": "Smart Tv LG 32 Led Thinq Ai",
+        "owner": "Por Mercado Livre",
+        "overview": "Avaliação 4.8 de 5. 820 opiniões.",
+        "runtime": 5,
+        "tags":
+        [
+          "credits_profile", "mshops", "eshop"
+        ],
+        "pills":
+        [
+           "Frete grátis",
+            "Enviado pelo",
+            "FULL"
+        ],
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_776613-MLU77445650307_072024-O.jpg"
+    },
+    {
+        "id": 1017,
+        "title":  "Smart TV 43” LED FULL HD 2 HDMI",
+        "owner": "Por Mercado Livre",
+        "overview": "Avaliação 4.8 de 5. 820 opiniões.",
+        "runtime": 2,
+        "tags":
+        [
+          "credits_profile", "mshops", "eshop"
+        ],
+        "pills":
+        [
+           "Frete grátis",
+            "Enviado pelo",
+            "FULL"
+        ],
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_614636-MLU77233226705_062024-LA.jpg"
+    },
+    {
+        "id": 1018,
+        "title":  "Smart Tv 50pug7408/78 50 4k Google Tv",
+        "owner": "Por Mercado Livre",
+        "overview": "Avaliação 4.8 de 5. 820 opiniões.",
+        "runtime": 4,
+        "tags":
+        [
+          "credits_profile", "mshops", "eshop", "large seller"
+        ],
+        "pills":
+        [
+           "Frete grátis",
+            "Enviado pelo",
+            "FULL"
+        ],
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_996108-MLU74163673859_012024-LA.jpg"
+    },
+    {
+        "id": 1019,
+        "title":  "Smart Tv Samsung 50'' Crystal 4k UHD Tizen LH50BECHVGGXZD",
+        "owner": "Por Mercado Livre",
+        "overview": "Avaliação 4.8 de 5. 820 opiniões.",
+        "runtime": 4,
+        "tags":
+        [
+          "credits_profile", "mshops", "eshop", "brand"
+        ],
+        "pills":
+        [
+           "Frete grátis",
+            "Enviado pelo",
+            "FULL"
+        ],
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_952359-MLU77344637989_062024-O.jpg"
+    },
+    {
+        "id": 1020,
+        "title":  "TV inteligente Thinq Ai LG",
+        "owner": "Por Mercado Livre",
+        "overview": "Avaliação 4.8 de 5. 820 opiniões.",
+        "runtime": 2,
+        "tags":
+        [
+          "credits_profile", "mshops", "eshop", "brand"
+        ],
+        "pills":
+        [
+           "Frete grátis",
+            "Enviado pelo",
+            "FULL"
+        ],
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_729177-MLU77020843178_062024-O.jpg"
+    },
+    {
+        "id": 1021,
+        "title":  "TV inteligente Thinq Ai LG",
+        "owner": "Por Mercado Livre",
+        "overview": "Avaliação 4.8 de 5. 820 opiniões.",
+        "runtime": 1,
+        "tags":
+        [
+          "credits profile", "mshops",  "brand"
+        ],
+        "pills":
+        [
+           "Frete grátis",
+            "Enviado pelo",
+            "FULL"
+        ],
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_729177-MLU77020843178_062024-O.jpg"
+    },
+    {
+        "id": 1022,
+        "title":  "TV inteligente Thinq Ai LG UHD 4K (2023)",
+        "owner": "Por Mercado Livre",
+        "overview": "Avaliação 4.8 de 5. 820 opiniões.",
+        "runtime": 5,
+        "tags":
+        [
+          "credits_profile", "mshops", "eshop", "brand"
+        ],
+        "pills":
+        [
+           "Frete grátis",
+            "Enviado pelo",
+            "FULL"
+        ],
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_729177-MLU77020843178_062024-O.jpg"
+    },
+    {
+        "id": 1023,
+        "title":  "TV inteligente Thinq Ai LG UHD 4K (2023)",
+        "owner": "Por Mercado Livre",
+        "overview": "Avaliação 4.8 de 5. 820 opiniões.",
+        "runtime": 3,
+        "tags":
+        [
+          "credits_profile", "mshops", "eshop",  "brand"
+        ],
+        "pills":
+        [
+           "Frete grátis",
+            "Enviado pelo",
+            "FULL"
+        ],
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_729177-MLU77020843178_062024-O.jpg"
+    },
+    {
+        "id": 1024,
+        "title":  "TV inteligente Thinq Ai LG",
+        "owner": "Por Mercado Livre",
+        "overview": "Avaliação 4.8 de 5. 820 opiniões.",
+        "runtime": 3,
+        "tags":
+        [
+          "credits_profile", "mshops", "eshop", "brand"
+        ],
+        "pills":
+        [
+           "Frete grátis",
+            "Enviado pelo",
+            "FULL"
+        ],
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_729177-MLU77020843178_062024-O.jpg"
+    },
+    {
+        "id": 1025,
+        "title":  "TV inteligente Thinq Ai LG de 50",
+        "owner": "Por Mercado Livre",
+        "overview": "Avaliação 4.8 de 5. 820 opiniões.",
+        "runtime": 4,
+        "tags":
+        [
+          "credits profile", "mshops", "eshop", "large seller","brand"
+        ],
+        "pills":
+        [
+           "Frete grátis",
+            "Enviado pelo",
+            "FULL"
+        ],
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_729177-MLU77020843178_062024-O.jpg"
+    }
+]

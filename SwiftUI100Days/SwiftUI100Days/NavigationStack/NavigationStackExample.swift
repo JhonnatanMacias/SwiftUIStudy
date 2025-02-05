@@ -39,7 +39,6 @@ struct NavigationStackExample: View {
        
         Spacer()
         NavigationStack(path: $pathGeneric) {
-            
             List(students, id:\.id) { student in
 //                NavigationLink(student.name, value: StudentList)
                 NavigationLink(destination: DetailView(number: student.age)) {

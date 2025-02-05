@@ -72,8 +72,7 @@ class Order: Codable {
 
 struct OrderExample: View {
     @State private var order = Order()
-    
-    
+
     
     var body: some View {
         NavigationStack {
@@ -112,3 +111,12 @@ struct OrderExample: View {
 #Preview {
     OrderExample()
 }
+
+/*
+//Each of those need to update the UI when changed, which means we need to make sure the class uses the @Observable macro.
+ https://www.hackingwithswift.com/books/ios-swiftui/taking-basic-order-details
+
+ 
+ Now, we know this class uses the @Observable macro, which means SwiftUI is able to watch this data for changes. So, what the @Bindable property wrapper does is create the missing bindings for us – it produces two-way bindings that are able to work with the @Observable macro, without having to use @State to create local data. It's perfect here, and you'll use it a lot in your future projects.
+
+*/

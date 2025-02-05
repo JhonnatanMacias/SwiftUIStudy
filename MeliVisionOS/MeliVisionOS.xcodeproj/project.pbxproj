@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAC8C5362C7ADDB00029B6DD /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = CAC8C5352C7ADDB00029B6DD /* RealityKitContent */; };
+		CAC8C5382C7ADDB00029B6DD /* MeliVisionOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8C5372C7ADDB00029B6DD /* MeliVisionOSApp.swift */; };
+		CAC8C53A2C7ADDB00029B6DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8C5392C7ADDB00029B6DD /* ContentView.swift */; };
+		CAC8C53C2C7ADDB20029B6DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAC8C53B2C7ADDB20029B6DD /* Assets.xcassets */; };
+		CAC8C53F2C7ADDB20029B6DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAC8C53E2C7ADDB20029B6DD /* Preview Assets.xcassets */; };
+		CAC8C54A2C7ADDB20029B6DD /* MeliVisionOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8C5492C7ADDB20029B6DD /* MeliVisionOSTests.swift */; };
+		CAD02AD02CA5E85800F79C18 /* televisoresDB.json in Resources */ = {isa = PBXBuildFile; fileRef = CAD02ACF2CA5E85800F79C18 /* televisoresDB.json */; };
+		CAD02AD22CA5E88700F79C18 /* televisoresDBTest.json in Resources */ = {isa = PBXBuildFile; fileRef = CAD02AD12CA5E88700F79C18 /* televisoresDBTest.json */; };
+		CAD02AD42CA5E8C600F79C18 /* Televisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD02AD32CA5E8C600F79C18 /* Televisor.swift */; };
+		CAD02AD62CA5EA2A00F79C18 /* DataInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD02AD52CA5EA2A00F79C18 /* DataInteractor.swift */; };
+		CAD02AD82CA5EAA200F79C18 /* DataInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD02AD72CA5EAA200F79C18 /* DataInteractorTest.swift */; };
+		CAD02ADA2CA5EB4C00F79C18 /* TVRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD02AD92CA5EB4C00F79C18 /* TVRow.swift */; };
+		CAD02ADC2CA5EBB100F79C18 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD02ADB2CA5EBB100F79C18 /* PreviewData.swift */; };
+		CAD02ADE2CA5ED5300F79C18 /* TVPoster.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD02ADD2CA5ED5300F79C18 /* TVPoster.swift */; };
+		CAD02AE02CA5EDF900F79C18 /* TelevisorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD02ADF2CA5EDF900F79C18 /* TelevisorVM.swift */; };
+		CAD02AE22CA5EFB500F79C18 /* TVDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD02AE12CA5EFB500F79C18 /* TVDetail.swift */; };
+		CAD02AE52CA5FAF300F79C18 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD02AE42CA5FAF300F79C18 /* RatingView.swift */; };
+		CAD02AE72CA5FD5800F79C18 /* Pills.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD02AE62CA5FD5800F79C18 /* Pills.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAC8C5462C7ADDB20029B6DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAC8C5282C7ADDB00029B6DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAC8C52F2C7ADDB00029B6DD;
+			remoteInfo = MeliVisionOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAC8C5302C7ADDB00029B6DD /* MeliVisionOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeliVisionOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC8C5342C7ADDB00029B6DD /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		CAC8C5372C7ADDB00029B6DD /* MeliVisionOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeliVisionOSApp.swift; sourceTree = "<group>"; };
+		CAC8C5392C7ADDB00029B6DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAC8C53B2C7ADDB20029B6DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAC8C53E2C7ADDB20029B6DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAC8C5402C7ADDB20029B6DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAC8C5452C7ADDB20029B6DD /* MeliVisionOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeliVisionOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC8C5492C7ADDB20029B6DD /* MeliVisionOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeliVisionOSTests.swift; sourceTree = "<group>"; };
+		CAD02ACF2CA5E85800F79C18 /* televisoresDB.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = televisoresDB.json; sourceTree = "<group>"; };
+		CAD02AD12CA5E88700F79C18 /* televisoresDBTest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = televisoresDBTest.json; sourceTree = "<group>"; };
+		CAD02AD32CA5E8C600F79C18 /* Televisor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Televisor.swift; sourceTree = "<group>"; };
+		CAD02AD52CA5EA2A00F79C18 /* DataInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInteractor.swift; sourceTree = "<group>"; };
+		CAD02AD72CA5EAA200F79C18 /* DataInteractorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInteractorTest.swift; sourceTree = "<group>"; };
+		CAD02AD92CA5EB4C00F79C18 /* TVRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVRow.swift; sourceTree = "<group>"; };
+		CAD02ADB2CA5EBB100F79C18 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		CAD02ADD2CA5ED5300F79C18 /* TVPoster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVPoster.swift; sourceTree = "<group>"; };
+		CAD02ADF2CA5EDF900F79C18 /* TelevisorVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelevisorVM.swift; sourceTree = "<group>"; };
+		CAD02AE12CA5EFB500F79C18 /* TVDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVDetail.swift; sourceTree = "<group>"; };
+		CAD02AE42CA5FAF300F79C18 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		CAD02AE62CA5FD5800F79C18 /* Pills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pills.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAC8C52D2C7ADDB00029B6DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC8C5362C7ADDB00029B6DD /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC8C5422C7ADDB20029B6DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAC8C5272C7ADDB00029B6DD = {
+			isa = PBXGroup;
+			children = (
+				CAC8C5322C7ADDB00029B6DD /* MeliVisionOS */,
+				CAC8C5332C7ADDB00029B6DD /* Packages */,
+				CAC8C5482C7ADDB20029B6DD /* MeliVisionOSTests */,
+				CAC8C5312C7ADDB00029B6DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAC8C5312C7ADDB00029B6DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8C5302C7ADDB00029B6DD /* MeliVisionOS.app */,
+				CAC8C5452C7ADDB20029B6DD /* MeliVisionOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAC8C5322C7ADDB00029B6DD /* MeliVisionOS */ = {
+			isa = PBXGroup;
+			children = (
+				CAD02AE32CA5F43400F79C18 /* Views */,
+				CAD02ACE2CA5E83100F79C18 /* Resources */,
+				CAC8C5372C7ADDB00029B6DD /* MeliVisionOSApp.swift */,
+				CAC8C53B2C7ADDB20029B6DD /* Assets.xcassets */,
+				CAC8C5402C7ADDB20029B6DD /* Info.plist */,
+				CAC8C53D2C7ADDB20029B6DD /* Preview Content */,
+				CAD02AD32CA5E8C600F79C18 /* Televisor.swift */,
+				CAD02AD52CA5EA2A00F79C18 /* DataInteractor.swift */,
+				CAD02ADF2CA5EDF900F79C18 /* TelevisorVM.swift */,
+			);
+			path = MeliVisionOS;
+			sourceTree = "<group>";
+		};
+		CAC8C5332C7ADDB00029B6DD /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8C5342C7ADDB00029B6DD /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		CAC8C53D2C7ADDB20029B6DD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8C53E2C7ADDB20029B6DD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CAC8C5482C7ADDB20029B6DD /* MeliVisionOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8C5492C7ADDB20029B6DD /* MeliVisionOSTests.swift */,
+			);
+			path = MeliVisionOSTests;
+			sourceTree = "<group>";
+		};
+		CAD02ACE2CA5E83100F79C18 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CAD02ACF2CA5E85800F79C18 /* televisoresDB.json */,
+				CAD02AD12CA5E88700F79C18 /* televisoresDBTest.json */,
+				CAD02AD72CA5EAA200F79C18 /* DataInteractorTest.swift */,
+				CAD02ADB2CA5EBB100F79C18 /* PreviewData.swift */,
+				CAD02ADD2CA5ED5300F79C18 /* TVPoster.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CAD02AE32CA5F43400F79C18 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CAD02AE12CA5EFB500F79C18 /* TVDetail.swift */,
+				CAD02AD92CA5EB4C00F79C18 /* TVRow.swift */,
+				CAC8C5392C7ADDB00029B6DD /* ContentView.swift */,
+				CAD02AE42CA5FAF300F79C18 /* RatingView.swift */,
+				CAD02AE62CA5FD5800F79C18 /* Pills.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAC8C52F2C7ADDB00029B6DD /* MeliVisionOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAC8C54D2C7ADDB20029B6DD /* Build configuration list for PBXNativeTarget "MeliVisionOS" */;
+			buildPhases = (
+				CAC8C52C2C7ADDB00029B6DD /* Sources */,
+				CAC8C52D2C7ADDB00029B6DD /* Frameworks */,
+				CAC8C52E2C7ADDB00029B6DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeliVisionOS;
+			packageProductDependencies = (
+				CAC8C5352C7ADDB00029B6DD /* RealityKitContent */,
+			);
+			productName = MeliVisionOS;
+			productReference = CAC8C5302C7ADDB00029B6DD /* MeliVisionOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAC8C5442C7ADDB20029B6DD /* MeliVisionOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAC8C5502C7ADDB20029B6DD /* Build configuration list for PBXNativeTarget "MeliVisionOSTests" */;
+			buildPhases = (
+				CAC8C5412C7ADDB20029B6DD /* Sources */,
+				CAC8C5422C7ADDB20029B6DD /* Frameworks */,
+				CAC8C5432C7ADDB20029B6DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAC8C5472C7ADDB20029B6DD /* PBXTargetDependency */,
+			);
+			name = MeliVisionOSTests;
+			productName = MeliVisionOSTests;
+			productReference = CAC8C5452C7ADDB20029B6DD /* MeliVisionOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAC8C5282C7ADDB00029B6DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CAC8C52F2C7ADDB00029B6DD = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					CAC8C5442C7ADDB20029B6DD = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CAC8C52F2C7ADDB00029B6DD;
+					};
+				};
+			};
+			buildConfigurationList = CAC8C52B2C7ADDB00029B6DD /* Build configuration list for PBXProject "MeliVisionOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAC8C5272C7ADDB00029B6DD;
+			productRefGroup = CAC8C5312C7ADDB00029B6DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAC8C52F2C7ADDB00029B6DD /* MeliVisionOS */,
+				CAC8C5442C7ADDB20029B6DD /* MeliVisionOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAC8C52E2C7ADDB00029B6DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC8C53F2C7ADDB20029B6DD /* Preview Assets.xcassets in Resources */,
+				CAD02AD22CA5E88700F79C18 /* televisoresDBTest.json in Resources */,
+				CAD02AD02CA5E85800F79C18 /* televisoresDB.json in Resources */,
+				CAC8C53C2C7ADDB20029B6DD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC8C5432C7ADDB20029B6DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAC8C52C2C7ADDB00029B6DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD02AE52CA5FAF300F79C18 /* RatingView.swift in Sources */,
+				CAD02ADE2CA5ED5300F79C18 /* TVPoster.swift in Sources */,
+				CAD02AD62CA5EA2A00F79C18 /* DataInteractor.swift in Sources */,
+				CAD02AE22CA5EFB500F79C18 /* TVDetail.swift in Sources */,
+				CAD02AE02CA5EDF900F79C18 /* TelevisorVM.swift in Sources */,
+				CAD02AD82CA5EAA200F79C18 /* DataInteractorTest.swift in Sources */,
+				CAD02AE72CA5FD5800F79C18 /* Pills.swift in Sources */,
+				CAD02ADA2CA5EB4C00F79C18 /* TVRow.swift in Sources */,
+				CAC8C53A2C7ADDB00029B6DD /* ContentView.swift in Sources */,
+				CAD02ADC2CA5EBB100F79C18 /* PreviewData.swift in Sources */,
+				CAC8C5382C7ADDB00029B6DD /* MeliVisionOSApp.swift in Sources */,
+				CAD02AD42CA5E8C600F79C18 /* Televisor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC8C5412C7ADDB20029B6DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC8C54A2C7ADDB20029B6DD /* MeliVisionOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAC8C5472C7ADDB20029B6DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAC8C52F2C7ADDB00029B6DD /* MeliVisionOS */;
+			targetProxy = CAC8C5462C7ADDB20029B6DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CAC8C54B2C7ADDB20029B6DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		CAC8C54C2C7ADDB20029B6DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		CAC8C54E2C7ADDB20029B6DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MeliVisionOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjmadel.coreData.MeliVisionOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		CAC8C54F2C7ADDB20029B6DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MeliVisionOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjmadel.coreData.MeliVisionOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		CAC8C5512C7ADDB20029B6DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjmadel.coreData.MeliVisionOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeliVisionOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeliVisionOS";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		CAC8C5522C7ADDB20029B6DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjmadel.coreData.MeliVisionOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeliVisionOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeliVisionOS";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAC8C52B2C7ADDB00029B6DD /* Build configuration list for PBXProject "MeliVisionOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC8C54B2C7ADDB20029B6DD /* Debug */,
+				CAC8C54C2C7ADDB20029B6DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAC8C54D2C7ADDB20029B6DD /* Build configuration list for PBXNativeTarget "MeliVisionOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC8C54E2C7ADDB20029B6DD /* Debug */,
+				CAC8C54F2C7ADDB20029B6DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAC8C5502C7ADDB20029B6DD /* Build configuration list for PBXNativeTarget "MeliVisionOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC8C5512C7ADDB20029B6DD /* Debug */,
+				CAC8C5522C7ADDB20029B6DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CAC8C5352C7ADDB00029B6DD /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CAC8C5282C7ADDB00029B6DD /* Project object */;
+}

@@ -14,7 +14,7 @@ struct PushButton: View {
     @Binding var isOn: Bool
     
     var onColors = [Color.red, Color.yellow]
-        var offColors = [Color(white: 0.6), Color(white: 0.4)]
+    var offColors = [Color(white: 0.6), Color(white: 0.4)]
 
         var body: some View {
             Button(title) {
@@ -51,4 +51,6 @@ To be clear, @Bindable is used when you're accessing a shared class that uses th
 
 On the other hand, @Binding is used when you have a simple, value type piece of data rather than a separate class. For example, you have an @State property that stores a Boolean, a Double, an array of strings, etc, and you want to pass that around. That doesn't use the @Observable macro, so we can't use @Bindable. Instead, we use @Binding, so we can share that Boolean or integer in several places.
 
-This behavior makes @Binding extremely important for whenever you want to create a custom user interface component. At their core, UI components are just SwiftUI views like everything else, but @Binding is what sets them apart: while they might have their local @State properties, they also expose @Binding properties that let them interface directly with other views.*/
+This behavior makes @Binding extremely important for whenever you want to create a custom user interface component. At their core, UI components are just SwiftUI views like everything else, but @Binding is what sets them apart: while they might have their local @State properties, they also expose @Binding properties that let them interface directly with other views.
+ //https://www.hackingwithswift.com/books/ios-swiftui/creating-a-custom-component-with-binding
+ */

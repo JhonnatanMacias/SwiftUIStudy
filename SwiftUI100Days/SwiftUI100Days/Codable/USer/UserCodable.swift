@@ -97,3 +97,10 @@ func encodeTaylor() {
 #Preview {
     UserCodable()
 }
+
+/*
+https://www.hackingwithswift.com/books/ios-swiftui/adding-codable-conformance-to-an-observable-class
+ 
+ {"_name":"Taylor","_$observationRegistrar":{}}. Our name property is now _name, there's also an observation registrar instance in the JSON.
+
+**/

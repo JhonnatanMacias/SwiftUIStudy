@@ -60,6 +60,8 @@
 		CAC8C4642C48C1A40029B6DD /* AddressViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8C4632C48C1A40029B6DD /* AddressViewExample.swift */; };
 		CAC8C4662C49F9A00029B6DD /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8C4652C49F9A00029B6DD /* CheckoutView.swift */; };
 		CAC8C4692C588CDF0029B6DD /* BindingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8C4682C588CDF0029B6DD /* BindingExample.swift */; };
+		CAC8C46B2C59CC360029B6DD /* UITextViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8C46A2C59CC360029B6DD /* UITextViewExample.swift */; };
+		CAC8C46E2C5B2AFC0029B6DD /* MacroObservableExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8C46D2C5B2AFC0029B6DD /* MacroObservableExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +138,8 @@
 		CAC8C4632C48C1A40029B6DD /* AddressViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressViewExample.swift; sourceTree = "<group>"; };
 		CAC8C4652C49F9A00029B6DD /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		CAC8C4682C588CDF0029B6DD /* BindingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingExample.swift; sourceTree = "<group>"; };
+		CAC8C46A2C59CC360029B6DD /* UITextViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewExample.swift; sourceTree = "<group>"; };
+		CAC8C46D2C5B2AFC0029B6DD /* MacroObservableExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroObservableExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -444,9 +448,27 @@
 		CAC8C4672C588CCC0029B6DD /* Binding */ = {
 			isa = PBXGroup;
 			children = (
+				CAC8C46F2C5B32900029B6DD /* SwiftData */,
+				CAC8C46C2C5B2AE50029B6DD /* Macro Observable */,
+				CAC8C46A2C59CC360029B6DD /* UITextViewExample.swift */,
 				CAC8C4682C588CDF0029B6DD /* BindingExample.swift */,
 			);
 			path = Binding;
+			sourceTree = "<group>";
+		};
+		CAC8C46C2C5B2AE50029B6DD /* Macro Observable */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8C46D2C5B2AFC0029B6DD /* MacroObservableExample.swift */,
+			);
+			path = "Macro Observable";
+			sourceTree = "<group>";
+		};
+		CAC8C46F2C5B32900029B6DD /* SwiftData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -616,10 +638,12 @@
 				CA5AEAE72BA24EDD006FCB5E /* CoreMLExample.swift in Sources */,
 				CA5AEAF32BEC6FE5006FCB5E /* AnimationExample.swift in Sources */,
 				CAC8C4592C2B787C0029B6DD /* URLSessionExample.swift in Sources */,
+				CAC8C46E2C5B2AFC0029B6DD /* MacroObservableExample.swift in Sources */,
 				CA5AEAF52BFC4022006FCB5E /* AnimationControlling.swift in Sources */,
 				CAC8C4662C49F9A00029B6DD /* CheckoutView.swift in Sources */,
 				CA5AEAFC2C002CFF006FCB5E /* DeleteListMacroExample.swift in Sources */,
 				CA4829782B6353EF0058DB8C /* StateExample.swift in Sources */,
+				CAC8C46B2C59CC360029B6DD /* UITextViewExample.swift in Sources */,
 				CA5AEAFA2BFED984006FCB5E /* SheetExample.swift in Sources */,
 				CAC8C4542C2A53510029B6DD /* NavigationStackBackExample.swift in Sources */,
 				CA5AEAFE2C00324A006FCB5E /* AddView.swift in Sources */,

@@ -48,6 +48,7 @@ struct ListLayout: View {
                 .listRowBackground(Color.darkBackground)
             }
             .listStyle(PlainListStyle())
+          
 
         .navigationTitle("Moonshot")
         .background(.darkBackground)
