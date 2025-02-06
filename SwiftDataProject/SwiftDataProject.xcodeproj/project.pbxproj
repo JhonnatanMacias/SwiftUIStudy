@@ -17,6 +17,8 @@
 		CAD8D2882CD07D72007B628F /* SwiftDataProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD8D2872CD07D72007B628F /* SwiftDataProjectUITestsLaunchTests.swift */; };
 		CAD8D2952CD080DD007B628F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD8D2942CD080DD007B628F /* User.swift */; };
 		CAD8D2992CD081ED007B628F /* EditUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD8D2982CD081ED007B628F /* EditUserView.swift */; };
+		CAD8D3892D5446B4007B628F /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD8D3882D5446B4007B628F /* UsersView.swift */; };
+		CAD8D38B2D544F48007B628F /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD8D38A2D544F48007B628F /* Job.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		CAD8D2872CD07D72007B628F /* SwiftDataProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CAD8D2942CD080DD007B628F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CAD8D2982CD081ED007B628F /* EditUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserView.swift; sourceTree = "<group>"; };
+		CAD8D3882D5446B4007B628F /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		CAD8D38A2D544F48007B628F /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 				CAD8D2702CD07D72007B628F /* Preview Content */,
 				CAD8D2942CD080DD007B628F /* User.swift */,
 				CAD8D2982CD081ED007B628F /* EditUserView.swift */,
+				CAD8D3882D5446B4007B628F /* UsersView.swift */,
+				CAD8D38A2D544F48007B628F /* Job.swift */,
 			);
 			path = SwiftDataProject;
 			sourceTree = "<group>";
@@ -271,6 +277,8 @@
 				CAD8D26B2CD07D70007B628F /* ContentView.swift in Sources */,
 				CAD8D26D2CD07D70007B628F /* Item.swift in Sources */,
 				CAD8D2692CD07D70007B628F /* SwiftDataProjectApp.swift in Sources */,
+				CAD8D38B2D544F48007B628F /* Job.swift in Sources */,
+				CAD8D3892D5446B4007B628F /* UsersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +442,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftDataProject/Preview Content\"";
+				DEVELOPMENT_TEAM = 7FQ27H36VW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -462,6 +471,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftDataProject/Preview Content\"";
+				DEVELOPMENT_TEAM = 7FQ27H36VW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

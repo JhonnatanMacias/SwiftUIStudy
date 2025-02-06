@@ -16,40 +16,61 @@ struct ContentView: View {
 //        user.city == "London"
 //    }, sort: \User.name) var users: [User]
     
-    @Query(filter: #Predicate<User> { user in
-        if user.name.localizedStandardContains("R")  {
-            if user.city == "London" {
-                return true
-            } else {
-                return false
-            }
-        } else {
-            return false
-        }
-      }, sort: \User.name) var users: [User]
+//    @Query(filter: #Predicate<User> { user in
+//        if user.name.localizedStandardContains("R")  {
+//            if user.city == "London" {
+//                return true
+//            } else {
+//                return false
+//            }
+//        } else {
+//            return false
+//        }
+//      }, sort: \User.name) var users: [User]
    
 //    @State private var path = [User]()
 //    @State private var pathGeneric = NavigationPath()
+    @State private var showingUpcomingOnly = false
+    @State private var sortOrder = [
+        SortDescriptor(\User.name),
+        SortDescriptor(\User.joinDate)]
 
     var body: some View {
         NavigationStack {
-            List(users) { user in
-                    Text(user.name)
-            }
+            UsersView(minimumJoinDate: showingUpcomingOnly ? .now : .distantPast, sortOrder: sortOrder)
             .navigationTitle("Users")
             .toolbar {
                 Button("Add Samples", systemImage: "plus") {
                     try? modelContext.delete(model: User.self)
                     let firts = User(name: "Ed Sheeran", city: "London", joinDate: .now.addingTimeInterval(86400 * -10))
-                    let second = User(name: "Rose Diaz", city: "Quilla", joinDate: .now.addingTimeInterval(86400 * -5))
-                    let third = User(name: "Roy kent", city: "London", joinDate: .now.addingTimeInterval(86400 * -5))
+                    let second = User(name: "Ed Diaz", city: "Quilla", joinDate: .now.addingTimeInterval(86400 * -5))
+                    let third = User(name: "Roy kent", city: "London", joinDate: .now.addingTimeInterval(86400 * 5))
                     let fourth = User(name: "Johnny English", city: "London", joinDate: .now.addingTimeInterval(86400 * 10))
-                    
+                   
                     modelContext.insert(firts)
                     modelContext.insert(second)
                     modelContext.insert(third)
                     modelContext.insert(fourth)
 //                    pathGeneric.append(user)
+                }
+                
+                Button(showingUpcomingOnly ? "Show Everyone" : "Show Upcoming") {
+                    showingUpcomingOnly.toggle()
+                }
+                
+                Menu("Sort", systemImage: "arrow.up.arrow.down") {
+                    Picker("Sort", selection: $sortOrder) {
+                        Text("Sort by Name")
+                            .tag([
+                                SortDescriptor(\User.name),
+                                SortDescriptor(\User.joinDate)
+                            ])
+                        Text("Sort By Join Date")
+                            .tag([
+                                SortDescriptor(\User.joinDate),
+                                SortDescriptor(\User.name)
+                            ])
+                    }
                 }
             }
         }
