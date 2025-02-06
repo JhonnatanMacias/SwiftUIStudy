@@ -75,7 +75,11 @@ struct ContentView: View {
             }
         }
     }
-
+/*
+ FAlto añadir icloud
+ //https://www.hackingwithswift.com/books/ios-swiftui/syncing-swiftdata-with-cloudkit
+    
+    
     private func addItem() {
         withAnimation {
 //            let newItem = Item(timestamp: Date())
@@ -89,7 +93,7 @@ struct ContentView: View {
 //                modelContext.delete(items[index])
             }
         }
-    }
+    }*/
 }
 
 #Preview {
