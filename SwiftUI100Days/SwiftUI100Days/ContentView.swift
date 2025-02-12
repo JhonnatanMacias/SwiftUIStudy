@@ -17,8 +17,8 @@ struct ContentView: View {
     //        animation: .default)
     //    private var items: FetchedResults<Item>
     
-    let options: [ClassType] = [.image, .binding, .animation, .hierachical, .navigation, .imagesResize, .codable, .sheet, .stateWithClass, .form_And_NavBar, .state, .viewLoop, .stacks, .gradient, .guessTheFlag, .customModifier,
-                                .customContainer, .picker, .coreML, .navigationStack, .haptic]
+    let options: [ClassType] = [.image, .binding,.photoPicker, .animation, .hierachical, .navigation, .imagesResize, .shareLink, .codable, .sheet, .stateWithClass, .form_And_NavBar, .state, .viewLoop, .stacks, .gradient, .guessTheFlag, .customModifier,
+                                .customContainer, .picker,.requestReview, .coreML, .navigationStack, .haptic, .emptyState ]
 
     var body: some View {
             NavigationView {
@@ -89,6 +89,14 @@ struct OptionDetailView: View {
                 PickerExample()
             case .codable:
                CodableAstronautExample()
+            case .emptyState:
+                EmptyState()
+            case .photoPicker:
+                PhotPicker()
+            case .requestReview:
+                AppStoreReview()
+            case .shareLink:
+                ShareLinkView()
             }
 //            Text("Selected Option: \(optionStr)")
 //                .font(.title)

@@ -29,4 +29,8 @@ public enum ClassType: String, CaseIterable {
     case codable
     case haptic
     case binding
+    case emptyState
+    case photoPicker
+    case requestReview
+    case shareLink
 }
