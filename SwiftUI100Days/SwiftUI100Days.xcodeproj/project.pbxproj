@@ -62,6 +62,10 @@
 		CAC8C4692C588CDF0029B6DD /* BindingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8C4682C588CDF0029B6DD /* BindingExample.swift */; };
 		CAC8C46B2C59CC360029B6DD /* UITextViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8C46A2C59CC360029B6DD /* UITextViewExample.swift */; };
 		CAC8C46E2C5B2AFC0029B6DD /* MacroObservableExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8C46D2C5B2AFC0029B6DD /* MacroObservableExample.swift */; };
+		CAD8D3CE2D5C4899007B628F /* ShareLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD8D3CD2D5C4899007B628F /* ShareLinkView.swift */; };
+		CAD8D3D02D5C48DB007B628F /* PhotPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD8D3CF2D5C48DB007B628F /* PhotPicker.swift */; };
+		CAD8D3D22D5C491F007B628F /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD8D3D12D5C491F007B628F /* EmptyState.swift */; };
+		CAD8D3D42D5C493C007B628F /* AppStoreReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD8D3D32D5C493C007B628F /* AppStoreReview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,6 +144,10 @@
 		CAC8C4682C588CDF0029B6DD /* BindingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingExample.swift; sourceTree = "<group>"; };
 		CAC8C46A2C59CC360029B6DD /* UITextViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewExample.swift; sourceTree = "<group>"; };
 		CAC8C46D2C5B2AFC0029B6DD /* MacroObservableExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroObservableExample.swift; sourceTree = "<group>"; };
+		CAD8D3CD2D5C4899007B628F /* ShareLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLinkView.swift; sourceTree = "<group>"; };
+		CAD8D3CF2D5C48DB007B628F /* PhotPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotPicker.swift; sourceTree = "<group>"; };
+		CAD8D3D12D5C491F007B628F /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		CAD8D3D32D5C493C007B628F /* AppStoreReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreReview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +198,10 @@
 		CA48293C2B60AB510058DB8C /* SwiftUI100Days */ = {
 			isa = PBXGroup;
 			children = (
+				CAD8D3CC2D5C4887007B628F /* ShareLink */,
+				CAD8D3CB2D5C487C007B628F /* PhotoPicker */,
+				CAD8D3C92D5C4864007B628F /* RequestReview */,
+				CAD8D3C82D5C485B007B628F /* EmptyState */,
 				CAC8C4672C588CCC0029B6DD /* Binding */,
 				CAC8C4572C2B786C0029B6DD /* URLSession */,
 				CAC8C4502C2A0ADA0029B6DD /* NavigationStack */,
@@ -471,6 +483,38 @@
 			path = SwiftData;
 			sourceTree = "<group>";
 		};
+		CAD8D3C82D5C485B007B628F /* EmptyState */ = {
+			isa = PBXGroup;
+			children = (
+				CAD8D3D12D5C491F007B628F /* EmptyState.swift */,
+			);
+			path = EmptyState;
+			sourceTree = "<group>";
+		};
+		CAD8D3C92D5C4864007B628F /* RequestReview */ = {
+			isa = PBXGroup;
+			children = (
+				CAD8D3D32D5C493C007B628F /* AppStoreReview.swift */,
+			);
+			path = RequestReview;
+			sourceTree = "<group>";
+		};
+		CAD8D3CB2D5C487C007B628F /* PhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				CAD8D3CF2D5C48DB007B628F /* PhotPicker.swift */,
+			);
+			path = PhotoPicker;
+			sourceTree = "<group>";
+		};
+		CAD8D3CC2D5C4887007B628F /* ShareLink */ = {
+			isa = PBXGroup;
+			children = (
+				CAD8D3CD2D5C4899007B628F /* ShareLinkView.swift */,
+			);
+			path = ShareLink;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -614,6 +658,7 @@
 				CAC8C4692C588CDF0029B6DD /* BindingExample.swift in Sources */,
 				CA5AEAEE2BAD2007006FCB5E /* ListExample.swift in Sources */,
 				CA5AEAD82B6B2042006FCB5E /* GradientsExample.swift in Sources */,
+				CAD8D3CE2D5C4899007B628F /* ShareLinkView.swift in Sources */,
 				CA4829472B60AB520058DB8C /* Persistence.swift in Sources */,
 				CAC8C44F2C262F280029B6DD /* ListLayout.swift in Sources */,
 				CA5AEB132C0FBAFB006FCB5E /* CodableAstronautExample.swift in Sources */,
@@ -630,6 +675,7 @@
 				CA48296D2B60AEB10058DB8C /* ClassesType.swift in Sources */,
 				CAC8C4562C2B70C30029B6DD /* NavigationStackAppearanceExample.swift in Sources */,
 				CA5AEAE12B9AAC4E006FCB5E /* CustomContainerExample.swift in Sources */,
+				CAD8D3D42D5C493C007B628F /* AppStoreReview.swift in Sources */,
 				CA5AEB072C096C7A006FCB5E /* HierachicalExample.swift in Sources */,
 				CAC8C4622C48BF6F0029B6DD /* OrderExample.swift in Sources */,
 				CA4829732B60B0C90058DB8C /* FormExample.swift in Sources */,
@@ -645,10 +691,12 @@
 				CA4829782B6353EF0058DB8C /* StateExample.swift in Sources */,
 				CAC8C46B2C59CC360029B6DD /* UITextViewExample.swift in Sources */,
 				CA5AEAFA2BFED984006FCB5E /* SheetExample.swift in Sources */,
+				CAD8D3D02D5C48DB007B628F /* PhotPicker.swift in Sources */,
 				CAC8C4542C2A53510029B6DD /* NavigationStackBackExample.swift in Sources */,
 				CA5AEAFE2C00324A006FCB5E /* AddView.swift in Sources */,
 				CAC8C4492C25FE930029B6DD /* MissionView.swift in Sources */,
 				CA5AEAF82BFD8C43006FCB5E /* StateWithClass.swift in Sources */,
+				CAD8D3D22D5C491F007B628F /* EmptyState.swift in Sources */,
 				CA5AEADB2B730086006FCB5E /* GuessTheFlagExample.swift in Sources */,
 				CA5AEAD52B68918E006FCB5E /* StacksExample.swift in Sources */,
 			);
