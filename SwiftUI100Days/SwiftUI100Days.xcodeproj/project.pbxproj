@@ -66,6 +66,7 @@
 		CAD8D3D02D5C48DB007B628F /* PhotPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD8D3CF2D5C48DB007B628F /* PhotPicker.swift */; };
 		CAD8D3D22D5C491F007B628F /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD8D3D12D5C491F007B628F /* EmptyState.swift */; };
 		CAD8D3D42D5C493C007B628F /* AppStoreReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD8D3D32D5C493C007B628F /* AppStoreReview.swift */; };
+		CAD8D3D72D5D78E6007B628F /* InstafilterExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD8D3D62D5D78E6007B628F /* InstafilterExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,6 +149,7 @@
 		CAD8D3CF2D5C48DB007B628F /* PhotPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotPicker.swift; sourceTree = "<group>"; };
 		CAD8D3D12D5C491F007B628F /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		CAD8D3D32D5C493C007B628F /* AppStoreReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreReview.swift; sourceTree = "<group>"; };
+		CAD8D3D62D5D78E6007B628F /* InstafilterExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstafilterExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +200,7 @@
 		CA48293C2B60AB510058DB8C /* SwiftUI100Days */ = {
 			isa = PBXGroup;
 			children = (
+				CAD8D3D52D5D78D1007B628F /* InstafilterApp */,
 				CAD8D3CC2D5C4887007B628F /* ShareLink */,
 				CAD8D3CB2D5C487C007B628F /* PhotoPicker */,
 				CAD8D3C92D5C4864007B628F /* RequestReview */,
@@ -515,6 +518,14 @@
 			path = ShareLink;
 			sourceTree = "<group>";
 		};
+		CAD8D3D52D5D78D1007B628F /* InstafilterApp */ = {
+			isa = PBXGroup;
+			children = (
+				CAD8D3D62D5D78E6007B628F /* InstafilterExample.swift */,
+			);
+			path = InstafilterApp;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -684,6 +695,7 @@
 				CA5AEAE72BA24EDD006FCB5E /* CoreMLExample.swift in Sources */,
 				CA5AEAF32BEC6FE5006FCB5E /* AnimationExample.swift in Sources */,
 				CAC8C4592C2B787C0029B6DD /* URLSessionExample.swift in Sources */,
+				CAD8D3D72D5D78E6007B628F /* InstafilterExample.swift in Sources */,
 				CAC8C46E2C5B2AFC0029B6DD /* MacroObservableExample.swift in Sources */,
 				CA5AEAF52BFC4022006FCB5E /* AnimationControlling.swift in Sources */,
 				CAC8C4662C49F9A00029B6DD /* CheckoutView.swift in Sources */,
